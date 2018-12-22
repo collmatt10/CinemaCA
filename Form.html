@@ -1,0 +1,219 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--rendering the device being used-->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/CAcss.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
+
+    <title>Cinema CA FORM</title>
+</head>
+
+
+
+
+<body>
+    <div class="container">
+        <!-- opening the bootstrap container-->
+ <div class="row">
+            <div class="col-sm-12">
+                <nav class="navbar navbar-expand-md sticky-top" style="background-color: #31386C" ;>
+
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#mycollapse" ;>
+                        <i class="fas fa-bars" style="color: aliceblue"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="mycollapse">
+                        <a href="#" class="navbar-brand">
+                        </a>
+
+                        <ul class="navbar-nav">
+                           <li><a href="index.html">Cinema</a></li>
+                            <li><a href="Article.html">Top Movie</a></li>
+                            <li><a href="Dashboard.html">Dashboard</a></li>
+                            <li><a href="Form.html">Register</a></li>
+                            <li><a href="#">Log In</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <fieldset>
+            <form class="register-form">
+
+                <!--///////////////////////////////////////SECTION STARTS HERE-->
+
+
+                <div class="headingForm">Register Here</div>
+                <section>
+                    <div class="form-row">
+                        <div class="formText">
+                            <label for="name">Please Enter your Name</label>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="First name">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Last name">
+                        </div>
+                    </div>
+
+
+                    <div class="form-row">
+                        <div class="formText">
+
+                            <label for="email">Email address</label>
+
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-6">
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                           
+                        </div>
+                        <div class="col-6">
+                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="formText">
+                            <label for="inputAddress">Address</label>
+                        </div>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="form-group">
+                        <div class="formText">
+                            <label for="inputAddress2">Address 2</label>
+                        </div>
+                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <div class="formText">
+                                <label for="inputCity">City</label>
+                            </div>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <div class="formText">
+                                <label for="inputState">State</label>
+                            </div>
+                            <select id="inputState" class="form-control">
+                                <option selected>Choose...</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-2">
+                            <div class="formText">
+                                <label for="inputZip">Zip</label>
+                            </div>
+                            <input type="text" class="form-control" id="inputZip">
+                        </div>
+                    </div>
+
+
+
+                    <div class="form-row">
+                        <div class="formText">
+
+                            <label for="password">Password</label>
+
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-6">
+                            <input type="password" class="form-control" id="password"  placeholder="Enter password">
+                           
+                        </div>
+                        <div class="col-6">
+                         <small id="passwordHelp" class="form-text text-muted">We'll never share your password with anyone else.</small>
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 col-lg-6">
+                            <div>
+                                <button type="button" class="btn btn-lg btn-success bookNow3">Register</button>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-lg-6">
+                            <button type="button" class="btn btn-lg btn btn-danger reset">Reset</button>
+                        </div>
+                    </div>
+                </section>
+
+            </form>
+        </fieldset>
+<footer class="page-footer font-small blue pt-4 footer">
+
+            <!-- Footer Links -->
+            <div class="container-fluid text-center text-md-left">
+
+                <!-- Grid row -->
+                <div class="row">
+
+                    <!-- Grid column -->
+                    <div class="col-md-6 mt-md-0 mt-3">
+
+                        <!-- Content -->
+                        <h5 class="text-uppercase">Footer</h5>
+                        <p>Follow us on twitter</p>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none pb-3">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 mb-md-0 mb-3">
+
+                        <!-- Links -->
+                        <h5 class="text-uppercase">Links</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">Link 1</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 2</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 3</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 4</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+                </div>
+            </div>
+            <!-- Footer Links -->
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">Matthew Collins
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+
+
+    </div>
+</body>
+
+</html>

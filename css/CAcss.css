@@ -1,0 +1,294 @@
+body {
+    background-color: ;
+}
+
+.container {
+    background-color: white;
+}
+
+ul {
+
+    list-style-type: none;
+    /* margin: 0;
+    padding: 0;*/
+    overflow: hidden;
+    background-color: #31386C;
+    text-decoration: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+}
+
+li a:hover {
+    background-color: #43467f;
+    text-decoration: none;
+    color: white;
+}
+
+.movieT {
+    height: 40px;
+    font-family: 'Segoe UI';
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.mynav {
+    background-color: #31386C;
+}
+
+.carosel {
+    height: auto;
+}
+
+.bookNow1 {
+    background-color: #31386C;
+    height: 50px;
+    /*width: 450px;*/
+    margin-left: 15px;
+    color: aliceblue;
+    text-decoration: none;
+    padding-right: 15px;
+    /*text-align: center;*/
+}
+
+.bookNow {
+    background-color: #31386C;
+    height: 50px;
+    margin-top: 15px;
+    width: 150px;
+    /*margin-left:15px;*/
+    color: aliceblue;
+    text-decoration: none;
+    padding-right: 15px;
+    /*text-align: center;*/
+}
+
+.bookNow2 {
+    background-color: #31386C;
+    height: 50px;
+    margin-top: 15px;
+    color: aliceblue;
+    text-decoration: none;
+    align-content: center;
+    justify-content: center;
+    /*padding-right: 15px;*/
+
+}
+
+.row2 {
+    height: 100x;
+    background: blue;
+    /*margin-left: 15px;*/
+    /* margin-top:15px;*/
+}
+
+.left {
+    /*width: 250px;*/
+    background-color: white;
+    margin-top: 15px;
+    /*padding-right: 15px;*/
+    /*    margin-left: 15px;*/
+}
+
+.heading1 {
+    border-bottom: 2px solid #9C6ADE;
+    font-family: 'Segoe UI';
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.right {
+    /*  width: 250px;*/
+    background-color: white;
+    padding-right: 15px;
+    margin-top: 15px;
+    /*margin-left: 15px;*/
+}
+
+.middle {
+    /*    margin-left: 15px;
+     margin-right: 15px;
+    padding-right: 15px;*/
+    margin-top: 15px;
+    background-color: white;
+}
+
+.showing {
+    background-color: #9C6ADE;
+    margin-top: 15px;
+    height: 25px;
+    padding-right: 15px;
+    margin-left: 15px;
+    color: aliceblue;
+}
+
+.showing2 {
+    background-color: #43467f;
+    margin-top: 15px;
+    height: 25px;
+    padding-right: 15px;
+    margin-left: 15px;
+    color: aliceblue;
+}
+
+.time1 {
+    margin-top: 15px;
+    margin-left: 10px;
+    background-color: #b3bcf5;
+    height: 25px;
+}
+
+.booking {
+    /* background-color: darkorchid;*/
+    margin-top: 15px;
+    /* width: 50px;*/
+
+}
+
+.map {
+    padding-left: 15px;
+    margin-top: 5px;
+    margin-left: 15px;
+    height: 15px;
+    width: 180px
+}
+
+.mapH {
+    height: 15px;
+}
+
+.footer {
+    margin-top: 150px;
+    background-color: #1c2260;
+    color: antiquewhite;
+}
+
+.content1 {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    font-family: 'Segoe UI';
+    text-align: left;
+    font-size: 15px;
+}
+
+.content2 {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    font-family: 'Segoe UI';
+    font-size: 15px;
+}
+
+.row1 {
+    height: auto;
+}
+
+.bookNow3 {
+    height: 50px;
+    margin-top: 15px;
+    width: 150px;
+    /*margin-left:15px;*/
+    color: aliceblue;
+    text-decoration: none;
+    padding-right: 15px;
+}
+
+.reset {
+    height: 50px;
+    margin-top: 15px;
+    width: 150px;
+    color: aliceblue;
+    text-decoration: none;
+    padding-right: 15px;
+}
+/*/////////////////////////////////////////////////////////////////////////*/
+.headingForm {
+    border-bottom: 2px solid #9C6ADE;
+    font-family: 'Segoe UI';
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 15px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.formText {
+    margin-top: 10px;
+    font-family: 'Segoe UI';
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input[type=text]:focus {
+    border: 2px solid #6b6fbc;
+}
+
+input[type=email]:focus {
+    border: 2px solid #6b6fbc;
+}
+
+input[type=password]:focus {
+    border: 2px solid #6b6fbc;
+}
+/*//////////////////////////////////////////////////////////////*/
+.articleHead {
+    border-bottom: 2px solid #9C6ADE;
+    font-family: 'Segoe UI';
+    font-style: italic;
+    font-size: 25px;
+    margin-top: 15px;
+    /*margin-left: 15px;*/
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.articleImg {
+    padding-bottom: 10px;
+}
+
+.sideImg {
+    /*max-width: 45%;*/
+}
+/*//////////////////////////////////////////////////////////////*/
+
+.chartP{
+    margin-top: 15px;
+    height: 100px;
+}
+
+.textTable{
+    color: aliceblue;
+}
+.headingDash{
+       border-bottom: 2px solid #9C6ADE;
+    font-family: 'Segoe UI';
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+  /*  padding-top: 15px;
+    padding-bottom: 15px;*/
+}
+
+
+
+
