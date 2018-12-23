@@ -26,7 +26,7 @@
 <body>
     <div class="container">
         <!-- opening the bootstrap container-->
- <div class="row">
+        <div class="row">
             <div class="col-sm-12">
                 <nav class="navbar navbar-expand-md sticky-top" style="background-color: #31386C" ;>
 
@@ -39,7 +39,7 @@
                         </a>
 
                         <ul class="navbar-nav">
-                           <li><a href="index.html">Cinema</a></li>
+                            <li><a href="index.html">Cinema</a></li>
                             <li><a href="Article.html">Top Movie</a></li>
                             <li><a href="Dashboard.html">Dashboard</a></li>
                             <li><a href="Form.html">Register</a></li>
@@ -53,7 +53,7 @@
         <fieldset>
             <form class="register-form">
 
-                <!--///////////////////////////////////////SECTION STARTS HERE-->
+                <!--   form here-->
 
 
                 <div class="headingForm">Register Here</div>
@@ -74,6 +74,7 @@
 
 
                     <div class="form-row">
+                        <!--form row for text box heading-->
                         <div class="formText">
 
                             <label for="email">Email address</label>
@@ -83,25 +84,37 @@
                     <div class="form-row">
                         <div class="col-6">
                             <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
-                           
+
                         </div>
                         <div class="col-6">
-                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
                     </div>
-                    </div>
+
+
                     <div class="form-group">
+                        <!--first address gets its own row-->
                         <div class="formText">
                             <label for="inputAddress">Address</label>
                         </div>
                         <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
                     </div>
+
+
+
                     <div class="form-group">
+                        <!-- second address gets its on row-->
                         <div class="formText">
                             <label for="inputAddress2">Address 2</label>
                         </div>
                         <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
                     </div>
+
+
+
+
                     <div class="form-row">
+                        <!-- smaller boxes stay on one row -->
                         <div class="form-group col-md-6">
                             <div class="formText">
                                 <label for="inputCity">City</label>
@@ -129,36 +142,40 @@
 
                     <div class="form-row">
                         <div class="formText">
-
                             <label for="password">Password</label>
 
                         </div>
                     </div>
+
+
                     <div class="form-row">
                         <div class="col-6">
-                            <input type="password" class="form-control" id="password"  placeholder="Enter password">
-                           
+                            <input type="password" class="form-control" id="password" placeholder="Enter password">
+
+                       
                         </div>
                         <div class="col-6">
-                         <small id="passwordHelp" class="form-text text-muted">We'll never share your password with anyone else.</small>
-                    </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-6 col-lg-6">
-                            <div>
-                                <button type="button" class="btn btn-lg btn-success bookNow3">Register</button>
+                            <small id="passwordHelp" class="form-text text-muted">We'll never share your password with anyone else.</small>
+                        </div>
+                        </div>
+                        
+                        
+                        <div class="row">
+                            <div class="col-6 col-lg-6">
+                                <div>
+                                    <button type="button" class="btn btn-lg btn-success bookNow3">Register</button>
+                                </div>
+                            </div>
+
+                            <div class="col-6 col-lg-6">
+                                <button type="button" class="btn btn-lg btn btn-danger reset">Reset</button>
                             </div>
                         </div>
-
-                        <div class="col-6 col-lg-6">
-                            <button type="button" class="btn btn-lg btn btn-danger reset">Reset</button>
-                        </div>
-                    </div>
                 </section>
 
             </form>
         </fieldset>
-<footer class="page-footer font-small blue pt-4 footer">
+        <footer class="page-footer font-small blue pt-4 footer">
 
             <!-- Footer Links -->
             <div class="container-fluid text-center text-md-left">

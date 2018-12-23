@@ -76,8 +76,8 @@ li a:hover {
 
 .bookNow2 {
     background-color: #31386C;
-    height: 50px;
-    margin-top: 15px;
+    /*  height: 50px;*/
+    /* margin-top: 10px;*/
     color: aliceblue;
     text-decoration: none;
     align-content: center;
@@ -130,7 +130,7 @@ li a:hover {
 
 .showing {
     background-color: #9C6ADE;
-    margin-top: 15px;
+   /* margin-top: 5px;*/
     height: 25px;
     padding-right: 15px;
     margin-left: 15px;
@@ -191,6 +191,7 @@ li a:hover {
     padding-bottom: 15px;
     font-family: 'Segoe UI';
     font-size: 15px;
+    border: 2px black;
 }
 
 .row1 {
@@ -214,6 +215,21 @@ li a:hover {
     color: aliceblue;
     text-decoration: none;
     padding-right: 15px;
+}
+
+.bigBook {
+    margin-top: 10px;
+    background-color: #31386C;
+    color: aliceblue;
+    text-decoration: none;
+    align-content: center;
+    justify-content: center;
+}
+.times{
+    padding-top: 2px;
+     font-family: 'Segoe UI';
+    font-style: italic;
+     font-weight: bold;
 }
 /*/////////////////////////////////////////////////////////////////////////*/
 .headingForm {
@@ -246,6 +262,7 @@ input[type=email]:focus {
 input[type=password]:focus {
     border: 2px solid #6b6fbc;
 }
+
 /*//////////////////////////////////////////////////////////////*/
 .articleHead {
     border-bottom: 2px solid #9C6ADE;
@@ -267,28 +284,26 @@ input[type=password]:focus {
 .sideImg {
     /*max-width: 45%;*/
 }
+
 /*//////////////////////////////////////////////////////////////*/
 
-.chartP{
+.chartP {
     margin-top: 15px;
     height: 100px;
 }
 
-.textTable{
+.textTable {
     color: aliceblue;
 }
-.headingDash{
-       border-bottom: 2px solid #9C6ADE;
+
+.headingDash {
+    border-bottom: 2px solid #9C6ADE;
     font-family: 'Segoe UI';
     font-style: italic;
     font-size: 18px;
     margin-top: 15px;
     margin-bottom: 15px;
     font-weight: bold;
-  /*  padding-top: 15px;
+    /*  padding-top: 15px;
     padding-bottom: 15px;*/
 }
-
-
-
-
